@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #0f4874e1; 
+    border-radius: 15px;
+    padding: 15px;
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-row: auto;
+    background-image: url('eve3.jpeg');
+    background-color: #f0f4f8;
+    height: 50vh;
+}
+
+.articleflex {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    align-items: flex-start; 
+    background-color: #E6EEF1;
+    padding: 20px;
+}
+
+
+#Activity1, #Activity2, #Activity3 {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgb(68, 145, 193);
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; 
+}
+
+
+/* #Event1{
+background-image: url('eve1.jpeg');
+}
+
+#Event2{
+    background-image: url('eve3.jpeg');
+}
+
+#Event3{
+    background-image: url('images.jpeg');
+}  */
+
+#Activity1:hover, #Activity2:hover, #Activity3:hover {
+    background-color: rgb(220, 220, 220); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    height: 200px;
+    background-color: #0f4874e1; 
+    color: #FFFFFF; 
+    flex-shrink: 0;
+}
+
+.footer-left {
+    font-size: 14px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right a {
+    color: #E6EEF1; 
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
